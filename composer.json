@@ -1,0 +1,22 @@
+{
+  "name": "purplebooth/s1-simplest-silex",
+  "require": {
+    "php": ">=5.5.9",
+    "silex/silex": "~1.2"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Billie Alice Thompson",
+      "email": "billie@purplebooth.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PurpleBooth\\": "src/"
+    }
+  }
+}
