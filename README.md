@@ -10,16 +10,23 @@ See it in action: [book-jacket-api.herokuapp.com](http://book-jacket-api.herokua
 
 First ensure vagrant and virtualbox are installed.
 
+You'll need the hosts updater plugin.
+
+```
+vagrant plugin install vagrant-hostsupdater
+```
+
+### Start the VM
 ```
 vagrant up
 vagrant ssh
 ```
+### Install the dependencies.
 
-to start the VM
-
+Inside the VM
 ```
 cd /vagrant
 composer install
 ```
 
-to install the dependencies.
+Your service will be running at [book-jacket-api.herokuapp.com](http://book-jacket-api.herokuapp.com)
